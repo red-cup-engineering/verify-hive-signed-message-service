@@ -1,0 +1,31 @@
+{
+  "name": "@red-cup-engineering/verify-hive-signed-message-service",
+  "version": "0.1.0",
+  "description": "Recovers or verifies a Hive Keychain `signBuffer` compact signature over\n`message`, then confirms the signing public key is a live posting or\nactive authority for `account`, cross-read from two public Hive JSON-RPC\nnodes.",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "exports": "./scripts/verify-hive-signed-message.mjs",
+  "bin": {
+    "verify-hive-signed-message": "scripts/verify-hive-signed-message.mjs"
+  },
+  "files": [
+    "scripts",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/hive-blockchain-client-service": "workspace:*",
+    "@red-cup-engineering/javascript-node-services-section": "workspace:*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "check": "node --check scripts/verify-hive-signed-message.mjs",
+    "test": "node --test test/*.test.mjs",
+    "pack:dry-run": "npm pack --dry-run --ignore-scripts"
+  },
+  "engines": {
+    "node": ">=24.2.0"
+  }
+}
