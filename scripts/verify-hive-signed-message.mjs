@@ -12,7 +12,7 @@ import { sha256 } from "@red-cup-engineering/cryptographic-computer-data-enginee
 import { verify, recover } from "@red-cup-engineering/cryptographic-computer-data-engineering-services-section/secp256k1";
 import { PublicKey } from "@red-cup-engineering/hive-blockchain-client-service/keys.mjs";
 import { RpcClient, DEFAULT_NODES } from "@red-cup-engineering/hive-blockchain-client-service/rpc.mjs";
-import { runJavascriptNodeOperation } from "@red-cup-engineering/javascript-node-services-section/operation";
+import { runJavascriptNodeOperation } from "@red-cup-engineering/javascript-node-operation-engineering-services-section/operation";
 
 const SIGNATURE_PATTERN = /^(0x)?[0-9a-fA-F]{130}$/;
 

@@ -17,7 +17,7 @@
   "dependencies": {
     "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "workspace:*",
     "@red-cup-engineering/hive-blockchain-client-service": "workspace:*",
-    "@red-cup-engineering/javascript-node-services-section": "workspace:*"
+    "@red-cup-engineering/javascript-node-operation-engineering-services-section": "workspace:*"
   },
   "devDependencies": {},
   "scripts": {
