@@ -4,8 +4,7 @@
   "description": "Recovers or verifies a Hive Keychain `signBuffer` compact signature over\n`message`, then confirms the signing public key is a live posting or\nactive authority for `account`, cross-read from two public Hive JSON-RPC\nnodes.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/computer-systems-engineering-services-section.git",
-    "directory": "services/computer-blockchain-system-services-section/services/hive-engineering-services-section/services/verify-hive-signed-message-service"
+    "url": "git+https://github.com/red-cup-engineering/verify-hive-signed-message-service.git"
   },
   "type": "module",
   "private": false,
